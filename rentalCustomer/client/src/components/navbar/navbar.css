@@ -1,0 +1,35 @@
+.logo{
+    color: #008943;
+    font-size: 35px;
+    font-family: Arial;
+    text-transform:none;
+    font-weight:700;
+}
+
+ul .nav-item{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar-wrapper{
+    height: var(--navbar-height);
+}
+
+.dropdown-toggle::after{
+    content: "";
+    display:none;
+}
+
+.disable-select {
+    user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.bage-quantity{
+    position: absolute;
+    left: 17px;
+    font-size: 10px;
+}

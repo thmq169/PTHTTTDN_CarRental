@@ -1,0 +1,30 @@
+.detail-activity-content-table tr td:first-child{
+    width: 40%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+.detail-activity-content-table tr {
+    vertical-align: text-top;
+    border-bottom: 1px var(--color-primary) solid;
+}
+
+.detail-activity-content-table tr td:first-child{
+    font-size:20px;
+    font-weight: 700;
+    padding: 10px 0;
+    width: 40% ;
+    text-transform: capitalize;
+}
+
+.detail-activity-content-table tr td:last-child{
+    font-size:18px;
+    font-weight: 500;
+    padding:10px;
+}
+
+.detail-activity-content-table tr:last-child{
+    border-bottom:none;
+}

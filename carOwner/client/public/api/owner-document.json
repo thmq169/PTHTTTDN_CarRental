@@ -1,0 +1,17 @@
+[
+    {"id":1,"lincense_ID": 1,"type":"National identification card","date":"2016-04-23","status":"PENDING"},
+    {"id":2,"lincense_ID": 2,"type":"National identification card","date":"2016-04-23","status":"PENDING"},
+    {"id":3,"lincense_ID": 3,"type":"National identification card","date":"2016-04-23","status":"PENDING"},
+    {"id":4,"lincense_ID": 4,"type":"Citizen Identification Card","date":"2016-04-23","status":"WAITING UPDATE"},
+    {"id":5,"lincense_ID": 5,"type":"Citizen Identification Card","date":"2016-04-23","status":"WAITING UPDATE"},
+    {"id":6,"lincense_ID": 6,"type":"Citizen Identification Card","date":"2016-04-23","status":"WAITING UPDATE"},
+    {"id":7,"lincense_ID": 7,"type":"Citizen Identification Card","date":"2016-04-23","status":"WAITING UPDATE"},
+    {"id":8,"lincense_ID": 8,"type":"Driver license B1","date":"2016-04-23","status":"PENDING"},
+    {"id":9,"lincense_ID": 9,"type":"Driver license B1","date":"2016-04-23","status":"VERIFIED"},
+    {"id":10,"lincense_ID": 10,"type":"Driver license B1","date":"2016-04-23","status":"PENDING"},
+    {"id":12,"lincense_ID": 11,"type":"Driver license B1","date":"2016-04-23","status":"PENDING"},
+    {"id":13,"lincense_ID": 12,"type":"Driver license B2","date":"2016-04-23","status":"VERIFIED"},
+    {"id":14,"lincense_ID": 13,"type":"Driver license B2","date":"2016-04-23","status":"VERIFIED"},
+    {"id":15,"lincense_ID": 14,"type":"Driver license B2","date":"2016-04-23","status":"PENDING"},
+    {"id":16,"lincense_ID": 15,"type":"Driver license B2","date":"2016-04-23","status":"VERIFIED"}
+]

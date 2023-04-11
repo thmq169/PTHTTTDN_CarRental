@@ -1,0 +1,110 @@
+GET http://localhost:5000/api/auth/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJmYjQxNTY4MDI0MDAwNDNhYTYyZDkiLCJpYXQiOjE2ODA4NDc4OTR9.piES7WML-RF1ysCWJgO_WW78PWn8sTBYV_wihh205nk
+###
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "nhuthuy_2002",
+    "password": "12345",
+    "email": "nnh241202@gmail.com",
+    "fullname": "Nguyễn Nhựt Huy",
+    "phone_number": "0366599225",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "CIC_lincense": "084202003698",
+    "CIC_date": "07/15/2021",
+    "drive_lincense_type": "Driver license",
+    "drive_lincense": "084210000726",
+    "drive_lincense_date": "07/13/2021"
+}
+
+###
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "nhuthuy_2002",
+    "password": "12345"
+}
+
+###
+GET http://localhost:5000/api/auth/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJiUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJkM2QxZTgwNGFhYWYzMzkxNGU2OTgiLCJpYXQiOjE2ODA3OTE3NDJ9.pj-pgaCac58GzNcl0mTldnqflUeOW35pYYfoFNFGUh0
+
+###
+POST http://localhost:5000/api/rent/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJkM2QxZTgwNGFhYWYzMzkxNGU2OTgiLCJpYXQiOjE2ODA2ODY0OTJ9.Y3dCzKzD3z_WXuyxuYXz4MYFCChjS1ZdBUiAxfNT9qA
+
+{
+    "car_ID": "642c2597657e48d494405faa",
+    "customer_ID": "64301735ba3489938e4ae2de",
+    "delivery_location": "Tôn Đức Thắng",
+    "end_day": "2023-012-21",
+    "payment_choice": "0.3",
+    "returning_location": "Tôn Đức Thắng",
+    "start_day": "2023-12-19",
+    "totalBill": 800000
+}
+
+###
+GET http://localhost:5000/api/rent/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJkM2QxZTgwNGFhYWYzMzkxNGU2OTgiLCJpYXQiOjE2ODA2ODY0OTJ9.Y3dCzKzD3z_WXuyxuYXz4MYFCChjS1ZdBUiAxfNT9qA
+
+###
+GET http://localhost:5000/api/rent/642d43625c6e55ed4924870c
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJkM2QxZTgwNGFhYWYzMzkxNGU2OTgiLCJpYXQiOjE2ODA2ODY0OTJ9.Y3dCzKzD3z_WXuyxuYXz4MYFCChjS1ZdBUiAxfNT9qA
+
+###
+GET http://localhost:5000/api/cars/642c2597657e48d494405faa
+
+###
+PUT http://localhost:5000/api/account
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJmYzBkODk1MjljOWQ3ZjU5NTQwN2QiLCJpYXQiOjE2ODA4NjU0ODR9.JAg4r7jYtziZp6WyfAWv0H2iMY_FDGMuf0nmwRB7NdM
+
+{
+    "fullname": "Nguyễn Nhựt Huydsss",
+    "username": "nhuthuy_2002",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "email": "nnh241202@gmail.com",
+    "phone_number": "0366599225",
+    "CIC_id": "642fc0d89529c9d7f595407f",
+    "CIC_lincense_ID": "084202003698",
+    "CIC_date": "2021-07-11",
+    "driverLicense_id": "642fc0d89529c9d7f5954081",
+    "driverLicense_lincense_ID": "084202009999",
+    "driverLicense_date": "2021-07-11" 
+}
+
+### 
+POST http://localhost:5000/api/account/wishlist/642c25bb657e48d494405fb2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMwMTczNWJhMzQ4OTkzOGU0YWUyZGUiLCJpYXQiOjE2ODA4NzMyNzF9.LtwXQLthGzJZHItnozCoU2be1vL92C6u43cNIVT94WU
+
+### 
+POST http://localhost:5000/api/rent/dayCheck
+Content-Type: application/json
+
+{ 
+    "day_check": "2023-05-20",
+    "car_id":"642c2597657e48d494405faa" 
+}
+
+### 
+POST http://localhost:5000/api/rent/periodCheck
+Content-Type: application/json
+
+{ 
+    "day_start": "2023-05-06",
+    "day_end": "2023-06-06",
+    "car_id":"642c2597657e48d494405faa" 
+}
+
+### 
+GET http://localhost:5000/api/account/history
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMwMTczNWJhMzQ4OTkzOGU0YWUyZGUiLCJpYXQiOjE2ODA4NzMyNzF9.LtwXQLthGzJZHItnozCoU2be1vL92C6u43cNIVT94WU

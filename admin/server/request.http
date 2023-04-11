@@ -1,0 +1,159 @@
+POST http://localhost:4000/api/car-owner/auth/register
+Content-Type: application/json
+
+{
+    "username": "nhuthuy_2002",
+    "password": "12345",
+    "email": "nnh241202@gmail.com",
+    "fullname": "Nguyễn Nhựt Huy",
+    "phone_number": "0366599225",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "CIC_lincense": "084202003698",
+    "CIC_date": "07/15/2021"
+}
+
+###
+POST http://localhost:4000/api/car-owner/auth/login
+Content-Type: application/json
+
+{
+    "username": "nhuthuy_2003",
+    "password": "12345"
+}
+
+###
+POST http://localhost:4000/api/car-owner/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjU4MDY1N2U0OGQ0OTQ0MDVmYTYiLCJpYXQiOjE2ODA2MTQ3ODR9.8Geh_6u0j7X5SdJ02jbcRg3e1EPUHSRgCFWui7rSxfk
+
+{
+    "license_plates": "84L1-611.99",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "transmission": "Automatic",
+    "registration_license": "044222",
+    "registration_date": "09/30/2018",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021"
+}
+
+###
+GET http://localhost:4000/api/car-owner/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJiZTQ5ZjkyOTc3Njg2MDgwNmVlYzIiLCJpYXQiOjE2ODA1OTg2ODZ9.xx9kNQ4p0I6JmNHl4NvrXA-WtONLA0pyP_3h0Nx2BYA
+
+### 
+GET http://localhost:4000/api/car-owner/cars/642bee074df45065ea84b55d
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJiZTQ5ZjkyOTc3Njg2MDgwNmVlYzIiLCJpYXQiOjE2ODA1OTg2ODZ9.xx9kNQ4p0I6JmNHl4NvrXA-WtONLA0pyP_3h0Nx2BYA
+
+###
+PUT http://localhost:4000/api/car-owner/cars/642c25bb657e48d494405fb2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjU4MDY1N2U0OGQ0OTQ0MDVmYTYiLCJpYXQiOjE2ODA2MTQ3ODR9.8Geh_6u0j7X5SdJ02jbcRg3e1EPUHSRgCFWui7rSxfk
+
+{
+    "license_plates": "84L1-611.99",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "transmission": "Automatic",
+    "registration_license": "044333",
+    "registration_date": "09/30/2018",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021"
+}
+
+###
+
+# DELETE http://localhost:5000/api/posts/63de73f3da6881c55b4cd3c7  
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2RlNzI4MjY1ZmJjMDE4MGNiMjQxZGMiLCJpYXQiOjE2NzU1MjU3OTd9.ye6jpJ1EglfYMyrJAYNoi6sNBONeZdiSQPVvQnli0FU
+
+###################################### Staff ######################################
+POST http://localhost:4000/api/staff/auth/register
+Content-Type: application/json
+
+{
+    "username": "nhuthuy0202",
+    "password": "12345",
+    "email": "nguyenhuy7402@gmail.com",
+    "fullname": "Nguyễn Văn Huy",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "role": "HR" 
+}
+
+###
+POST http://localhost:4000/api/staff/auth/login
+Content-Type: application/json
+
+{
+    "username": "nhuthuy0202",
+    "password": "12345"
+}
+
+###
+GET http://localhost:4000/api/staff/cars/
+
+### 
+GET http://localhost:4000/api/staff/cars/642c2597657e48d494405faa
+
+###
+PUT http://localhost:4000/api/staff/cars/642c2597657e48d494405faa
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjhjOGJlYTZjYzNkMGVkMjczZTgiLCJpYXQiOjE2ODA2MTYxNzB9.EqMj9ELqBUzhE8Rrrl6HFo8qsjJKrAVKXXkMiAkILVk
+
+{
+    "license_plates": "84L1-611.99",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "transmission": "Automatic",
+    "inspection_status": "WAITING UPDATE",
+    "registration_license": "044333",
+    "registration_date": "09/30/2018",
+    "registration_status": "WAITING UPDATE",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "inspection_license_status": "WAITING UPDATE",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021",
+    "insurance_status": "WAITING UPDATE"
+}
+
+###
+GET http://localhost:4000/api/staff/invoices
+
+###
+PUT http://localhost:4000/api/staff/invoices/update/receive/6432c7f9e43587e1a3f7c81c
+Content-Type: application/json
+
+{
+    "general_status": "ENDED",
+    "transportation_status": "RECEIVIE SUCESSFULL",
+    "idStaff": "6432d3344ddb6fd9c493898d"
+}
+
+
+
+###
+GET http://localhost:4000/api/staff/customers
+
+
+###
+GET http://localhost:4000/api/staff/carowner
+
+###
+GET http://localhost:4000/api/staff/invoices/6433e928f009120b2ca7f4b0
+

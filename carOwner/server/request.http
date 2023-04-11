@@ -1,0 +1,158 @@
+POST http://localhost:4000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "nhuthuy_20022",
+    "password": "12345",
+    "email": "nnh24qq02@gmail.com",
+    "fullname": "Nguyễn Nhựt Huy",
+    "phone_number": "0366599225",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "CIC_lincense": "0842020cs2298",
+    "CIC_date": "07/15/2021"
+}
+
+###
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "nhuthuydeptrai",
+    "password": "12345"
+}
+
+###
+GET http://localhost:4000/api/auth/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjU4MDY1N2U0OGQ0OTQ0MDVmYTYiLCJpYXQiOjE2ODA5NzU3OTB9.kU_6VP7hmDml5KCYUONEhcOYsFAbR-d_DaACbs_f4XY
+
+###
+POST http://localhost:4000/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjU4MDY1N2U0OGQ0OTQ0MDVmYTYiLCJpYXQiOjE2ODA2MTQ3ODR9.8Geh_6u0j7X5SdJ02jbcRg3e1EPUHSRgCFWui7rSxfk
+
+{
+    "license_plates": "84L1-6HH.HH",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "start_day": "09/30/2018",
+    "end_day": "09/20/2018",
+    "transmission": "Automatic",
+    "registration_license": "044222",
+    "registration_date": "09/30/2018",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021"
+}
+
+###
+GET http://localhost:4000/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJiZTQ5ZjkyOTc3Njg2MDgwNmVlYzIiLCJpYXQiOjE2ODA1OTg2ODZ9.xx9kNQ4p0I6JmNHl4NvrXA-WtONLA0pyP_3h0Nx2BYA
+
+### 
+GET http://localhost:4000/api/cars/642c2597657e48d494405faa
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMxYzMzMjI4MDYyMGE0MGNiNjM1NTIiLCJpYXQiOjE2ODEwNjk3Mzd9.o-5Q9V9Nzqw9ysllCdlxn2QhjQGkqL3VkIEX6smFo0M
+
+###
+PUT http://localhost:4000/api/car-owner/cars/642c25bb657e48d494405fb2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjU4MDY1N2U0OGQ0OTQ0MDVmYTYiLCJpYXQiOjE2ODA2MTQ3ODR9.8Geh_6u0j7X5SdJ02jbcRg3e1EPUHSRgCFWui7rSxfk
+
+{
+    "license_plates": "84L1-611.99",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "transmission": "Automatic",
+    "registration_license": "044333",
+    "registration_date": "09/30/2018",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021"
+}
+
+###
+
+# DELETE http://localhost:5000/api/posts/63de73f3da6881c55b4cd3c7  
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2RlNzI4MjY1ZmJjMDE4MGNiMjQxZGMiLCJpYXQiOjE2NzU1MjU3OTd9.ye6jpJ1EglfYMyrJAYNoi6sNBONeZdiSQPVvQnli0FU
+
+###################################### Staff ######################################
+POST http://localhost:4000/api/staff/auth/register
+Content-Type: application/json
+
+{
+    "username": "nhuthuydeptrai",
+    "password": "12345",
+    "email": "nguyenhuy7402@gmail.com",
+    "fullname": "Nguyễn Văn Huy",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "role": "HR" 
+}
+
+###
+POST http://localhost:4000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "nhuthuydeptrai",
+    "password": "12345"
+}
+
+###
+GET http://localhost:4000/api/staff/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjhjOGJlYTZjYzNkMGVkMjczZTgiLCJpYXQiOjE2ODA2MTYxNzB9.EqMj9ELqBUzhE8Rrrl6HFo8qsjJKrAVKXXkMiAkILVk
+
+### 
+GET http://localhost:4000/api/staff/cars/642c2597657e48d494405faa
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjhjOGJlYTZjYzNkMGVkMjczZTgiLCJpYXQiOjE2ODA2MTYxNzB9.EqMj9ELqBUzhE8Rrrl6HFo8qsjJKrAVKXXkMiAkILVk
+
+###
+PUT http://localhost:4000/api/staff/cars/642c2597657e48d494405faa
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDJjMjhjOGJlYTZjYzNkMGVkMjczZTgiLCJpYXQiOjE2ODA2MTYxNzB9.EqMj9ELqBUzhE8Rrrl6HFo8qsjJKrAVKXXkMiAkILVk
+
+{
+    "license_plates": "84L1-611.99",
+    "image": "www.google.com",
+    "type": "SUV",
+    "manufacturer": "Ford",
+    "manufacturer_year": "2018",
+    "fuel": "Diesel",
+    "seat": 7,
+    "transmission": "Automatic",
+    "inspection_status": "WAITING UPDATE",
+    "registration_license": "044333",
+    "registration_date": "09/30/2018",
+    "registration_status": "WAITING UPDATE",
+    "inspection_license": "2903V-112022",
+    "inspection_date": "08/21/2019",
+    "inspection_license_status": "WAITING UPDATE",
+    "insurance_license": "21XMP 213149522",
+    "insurance_date": "02/19/2021",
+    "insurance_status": "WAITING UPDATE"
+}
+###
+PUT http://localhost:4000/api/auth/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDMxYzMzMjI4MDYyMGE0MGNiNjM1NTIiLCJpYXQiOjE2ODEwMTM1MzJ9.vKUHRKFRtD_AcePnObXZGpGwnhV1SHHmip5-ypTQbLc
+
+{
+    "username": "nhuthuydeptrai",
+    "password": "12345",
+    "email": "condicho@gmail.com",
+    "fullname": "Nguyễn Nhựt Huy",
+    "phone_number": "0366599225",
+    "address": "36 Nguyễn Thị Thập, Tân Quy, Quận 7, TP. HCM",
+    "CIC_id": "6431c333280620a40cb63554",
+    "CIC_lincense": "nhutdumecujhomocim",
+    "CIC_date": "07/15/2021"
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "display_name": "Staffs",
+        "route": "/staffs",
+        "icon": "bx bx-user-plus"
+    },
+    {
+        "display_name": "Customers",
+        "route": "/customers",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Owners",
+        "route": "/owners",
+        "icon": "bx bx-user-check"
+    },
+    {
+        "display_name": "Cars",
+        "route": "/cars",
+        "icon": "bx bx-car"
+    },
+    {
+        "display_name": "Rental Invoice",
+        "route": "/rental-invoice",
+        "icon": "bx bx-cart"
+    },
+    {
+        "display_name": "Activity",
+        "route": "/activity",
+        "icon": "bx bx-list-plus"
+    },
+    {
+        "display_name": "Transportation",
+        "route": "/transportation",
+        "icon": "bx bx-transfer"
+    },
+    {
+        "display_name": "History",
+        "route": "/history",
+        "icon": "bx bx-history"
+    },
+    {
+        "display_name": "Analytics",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt",
+        "status": "off"
+    },
+    {
+        "display_name": "review",
+        "route": "/review",
+        "icon": "bx bx-gift",
+        "status": "off"
+    },
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog",
+        "status": "off"
+    }
+]

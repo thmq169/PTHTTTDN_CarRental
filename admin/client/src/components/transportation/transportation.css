@@ -1,0 +1,8 @@
+.nav-tabs .nav-link{
+    font-size: 25px;
+    color: var(--main-bg-dark);
+}
+
+.nav-tabs .nav-link.active{
+    color:var(--main-color);
+}

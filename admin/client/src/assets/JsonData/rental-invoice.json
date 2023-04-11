@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "DELIVERY_REQUEST",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 1,
+        "customer_ID": 1
+    },
+    {
+        "id": 2,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "RECEIVING",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 2,
+        "customer_ID": 2
+    },
+    {
+        "id":3,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "DELIVERING",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 3,
+        "customer_ID": 3
+    },
+    {
+        "id": 4,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "DELIVERY SUCESSFULL",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 4,
+        "customer_ID": 4
+    },
+    {
+        "id": 5,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "RECEIVING",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 5,
+        "customer_ID": 5
+    },
+    {
+        "id": 6,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "DELIVERY_REQUEST",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 6,
+        "customer_ID": 6
+    },
+    {
+        "id": 7,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "DELIVERY FAIL",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 7,
+        "customer_ID": 7
+    },
+    {
+        "id": 8,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "RECEIVIE SUCESSFULL",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 8,
+        "customer_ID": 8
+    },
+    {
+        "id": 9,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "RECEIVIE FAIL",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 9,
+        "customer_ID": 9
+    },
+    {
+        "id": 10,
+        "start_day":"2023-01-25",
+        "end_day":"2023-01-30",
+        "delivery_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "returning_location": "Số 19, Nguyễn Hữu Thọ, phường Tân Phong, Quận 7, TP Hồ Chí Minh, Việt Nam",
+        "transportation_status": "RECEIVIE SUCESSFULL",
+        "payment_status": "30%",
+        "general_status": "PENDING",
+        "car_ID": 10,
+        "customer_ID": 10
+    }
+]

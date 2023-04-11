@@ -1,0 +1,147 @@
+[
+    {
+        "ID": 1,
+        "type":"SUV" ,
+        "name": "Ford Ranger XLS 2021",
+        "license_plates" :"51D-580.31",
+        "image" : "51D-580.31.png",
+        "manufacturer" :"Ford",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Dầu",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    },
+    {
+        "ID": 2,
+        "type":"SUV" ,
+        "name": "BMW 320i 2016",
+        "license_plates" :"51F-593.89",
+        "image" : "51F-593.89.png",
+        "manufacturer" : "BMW",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    
+    },
+    {
+        "ID": 3,
+        "type":"SUV" ,
+        "name": "Mercedes C300 AMG 2023",
+        "license_plates" :"51G-362.16",
+        "image" : "51G-362.16.png",
+        "manufacturer" : "Mercedes Benz",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    },
+    {
+        "ID": 4,
+        "type":"SUV" ,
+        "name": "Mercedes S450 L",
+        "license_plates" :"51G-559.27",
+        "image" : "51G-559.27.png",
+        "manufacturer" : "Mercedes Benz",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    },
+    {
+        "ID": 5,
+        "type":"SUV" ,
+        "name": "Honda Civic 2020",
+        "license_plates" :"51H-264.27",
+        "image" : "51H-264.27.png",
+        "manufacturer" : "Honda",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    },
+    {
+        "ID": 6,
+        "type":"SUV" ,
+        "name": "Toyota Rush 2021",
+        "license_plates" :"51H-950.37",
+        "image" : "51H-950.37.png",
+        "manufacturer" : "Toyota",
+        "manufacturer_year": 2016,
+        "seat" : 7,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    },
+    {
+        "ID": 7,
+        "type":"SUV" ,
+        "name": "Mitsubishi Attrage 2021",
+        "license_plates" :"51K-162.65",
+        "image" : "51K-162.65.png",
+        "manufacturer" : "Mitsubishi",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    
+    },
+    {
+        "ID": 8,
+        "type":"SUV" ,
+        "name": "Morris Garages HS Standard 2021",
+        "license_plates" :"51K-358.25",
+        "image" : "51K-358.25.png",
+        "manufacturer" : "Morris",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    
+    },
+    {
+        "ID": 9,
+        "type":"SUV" ,
+        "name": "Vinfast Lux A 2.0 2022",
+        "license_plates" :"51K-47.8383",
+        "image" : "51K-47.8383.png",
+        "manufacturer" : "Vinfast",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng 2.0 L",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    
+    },
+    {
+        "ID": 10,
+        "type":"SUV" ,
+        "name": "Mazda CX5 2020 ",
+        "license_plates" :"77A-17.5454",
+        "image" : "77A-17.5454.png",
+        "manufacturer" : "Mazda",
+        "manufacturer_year": 2016,
+        "seat" : 5,
+        "transmission" : "Số tự động",
+        "fuel" : "Xăng",
+        "rental_status": "AVAILABLE",
+        "inspection_status": "PENDING"
+    
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "display_name": "Thông tin cá nhân",
+        "route": "/",
+        "icon": "bx bx-user-pin"
+    },
+    {
+        "display_name": "Thêm xe mới",
+        "route": "/newcar",
+        "icon": "bx bx-plus"
+    },
+    {
+        "display_name": "Xe của bạn",
+        "route": "/cars",
+        "icon": "bx bx-car"
+    },
+    {
+        "display_name": "Ví điện tử",
+        "route": "/myWallet",
+        "icon": "bx bx-wallet",
+        "status": "off"
+    },
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog",
+        "status": "off"
+    }
+]

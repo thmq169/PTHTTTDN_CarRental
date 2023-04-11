@@ -1,0 +1,20 @@
+.login-page{
+    background-image: url('../../../public/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+
+.register-page{
+    background-image: url('../../../public/register.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+}
+
+.register-identity {
+    display: flex;
+}
+

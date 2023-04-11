@@ -1,0 +1,56 @@
+.section-title{
+    color: #008943;
+    font-size: 50px;
+    text-transform:capitalize;
+    font-weight:700;
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom:20px;
+    margin-top: 8px;
+}
+
+.form-group .form-check{
+    margin: 0 20px;
+}
+
+.detail-attention span{
+    display: block;
+    padding: 4px 0;
+}
+
+.detail-description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-content-table{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.detail-content-table tr td{
+    padding: 10px 0;
+}
+
+.detail-content-table tr td:first-child{
+    width: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.table-profile tr {
+    vertical-align: text-top;
+    border-bottom: 1px var(--color-primary) solid;
+}
+
+.table-profile tr td:first-child{
+    /* font-weight: 700; */
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+.table-profile tr:last-child{
+    border-bottom:none;
+}
+
