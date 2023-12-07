@@ -41,5 +41,5 @@ app.use('/api/account', accountRouter)
 const PORT = 4001
 
 app.listen(PORT, () => {
-    console.log(`Server started on port http://localhost:${PORT}`)
+    console.log(`Server started on port http://localhost:${process.env.PORT}`)
 })
