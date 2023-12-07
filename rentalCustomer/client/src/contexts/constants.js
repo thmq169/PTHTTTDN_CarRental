@@ -1,5 +1,5 @@
 export const apiUrl = process.env.NODE_ENV !== 'production'
-    ? 'https://car-rental-customer-api.vercel.app/api' : 'somethingdeployURL'
+    ? 'https://car-rental-customer-api.vercel.app/api' : 'https://car-rental-customer-api.vercel.app/api'
 
 // AuthContext
 export const LOCAL_STORAGE_TOKEN_NAME = 'hiring_car'
